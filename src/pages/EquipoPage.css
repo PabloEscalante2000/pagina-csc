@@ -1,0 +1,9 @@
+.card-flex-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.equipo-main {
+    background: var(--amarillo);
+}

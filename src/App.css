@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "against";
+    src: url(./fonts/against\ regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "belgiano";
+    src: url(./fonts/Belgiano\ Serif\ 2.ttf) format("truetype");
+}
+
+:root {
+    --amarillo:#EEB261;
+    --azul:#3D558B;
+    --celeste:#B1C1DF;
+    --azul-oscuro:#252F3E;
+    --crema:#E4C9B0;
+    --xsmall:12px;
+    --small:16px;
+    --xxmedium:20px;
+    --xmedium:24px;
+    --medium:32px;
+    --big:48px;
+    --xbig:60px;
+    --xxbig:72px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

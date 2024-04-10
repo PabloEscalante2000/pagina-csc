@@ -1,0 +1,41 @@
+.functional-card {
+    max-width: 350px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.functional-card h2 {
+    font-family: "against";
+    font-size: var(--xxmedium);
+    color: var(--amarillo);
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 5px solid var(--azul);
+}
+
+.functional-card div {
+    margin-top: 20px;
+    font-family: "belgiano";
+    margin-bottom: 20px;
+}
+
+.functional-card button {
+    border: 0px;
+    background-color: white;
+    font-size: var(--medium);
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}

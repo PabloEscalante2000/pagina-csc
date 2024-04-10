@@ -1,0 +1,29 @@
+@media (max-width:300px) {
+    body .footer-logo img {
+        height: 25px;
+    }
+}
+
+.footer {
+    background-color: var(--celeste);
+    font-family: "belgiano";
+    padding: 50px;
+}
+
+.footer-logo {
+    margin-bottom: 50px;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-content {
+    margin: 0px auto;
+    max-width: 300px;    
+}
+
+.footer-content p {
+    padding-bottom: 20px;
+}
+

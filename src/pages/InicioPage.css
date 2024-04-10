@@ -1,0 +1,193 @@
+@media (max-width:560px) {
+    body .tit-ini h1 {
+        font-size: var(--medium);
+    }
+}
+
+.tit-ini {
+    padding: 50px;
+    font-family: "against";
+    background-image: url(../assets/portada-inicio.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.tit-ini h1 {
+    display: block;
+    font-size: var(--big);
+    color: white;
+}
+
+.mision-ini {
+    padding: 50px;
+    background-color: var(--celeste);
+    font-family: "belgiano";
+}
+
+.mision-ini h2 {
+    font-size: var(--medium);
+    position: relative;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.mision-ini h2::before {
+    width: 50px;
+    height: 5px;
+    background-color: var(--azul-oscuro);
+    content: ".";
+    position: absolute;
+    left: -60px;
+    transform: translate(0px,360%);    
+}
+
+.mision-ini-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mision-ini-content aside {
+    background-color: var(--azul);
+    padding: 30px;
+    border-radius: 50px;
+    max-width: 400px;
+    color: white;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mision-ini-content section {
+    width: 400px;
+    height: 300px;
+    background-image: url(../assets/mision.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.vision-ini {
+    background-color: var(--crema);
+    font-family: "belgiano";
+    padding: 50px;
+}
+
+.vision-ini h2 {
+    text-align: right;
+    font-size: var(--medium);
+    position: relative;
+    margin-bottom: 30px;
+    color: white;
+    position: relative;
+}
+
+.vision-ini h2::after {
+    width: 50px;
+    height: 5px;
+    background-color: var(--azul-oscuro);
+    content: ".";
+    position: absolute;
+    right: -60px;
+    transform: translate(0px,410%);  
+}
+
+.vision-ini-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.vision-ini-content aside {
+    background-color: var(--amarillo);
+    padding: 30px;
+    border-radius: 50px;
+    max-width: 400px;
+    color: white;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision-ini-content section {
+    width: 400px;
+    height: 300px;
+    background-image: url(../assets/vision.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.ventajas-inicio {
+    background-color: var(--amarillo);
+}
+
+.ventajas-inicio section {
+    background-color: var(--azul);
+    color: white;
+    padding: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: "against";
+}
+
+.ventajas-inicio aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ventajas-inicio aside div {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 50px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    font-family: "belgiano";
+    text-transform: uppercase;
+    position: relative;
+}
+
+.ventajas-inicio aside div span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background-color: var(--azul);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--medium);
+}
+
+
+
+
+
+
+
+
+
+
+

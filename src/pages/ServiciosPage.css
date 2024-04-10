@@ -1,0 +1,135 @@
+@media (max-width:500px) {
+    body .main-serv h1 {
+        font-size: var(--xmedium);
+    }
+}
+
+@media (max-width:350px) {
+    body .main-serv h1 {
+        font-size: var(--xxmedium);
+    }
+}
+
+.portada-serv {
+    height: 400px;
+    background-image: url(../assets/portada-servicio.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-serv {
+    padding: 50px;
+}
+
+.main-serv h1 {
+    font-size: var(--medium);
+    position: relative;
+    margin-bottom: 30px;
+    color: black;
+    font-family: "against";
+}
+
+.main-serv h1::before {
+    width: 50px;
+    height: 5px;
+    background-color: var(--azul-oscuro);
+    content: ".";
+    position: absolute;
+    left: -60px;
+    transform: translate(0px,380%);    
+}
+
+.cli-cult-flex {
+    font-family: "belgiano";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.cli-cult-flex div {
+    width: 500px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.serv-img1 {
+    background-image: url(../assets/servicio-img1.jpg);
+}
+
+.serv-img2 {
+    background-image: url(../assets/servicio-img2.jpg);
+}
+
+.serv-img3 {
+    background-image: url(../assets/servicio-img3.jpg);
+}
+
+.cli-cult-flex aside {
+    max-width: 400px;
+    margin: 20px;
+}
+
+.cli-cult-flex aside h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--amarillo);
+}
+
+.cont-serv-1 {
+    background-color: var(--amarillo);
+    padding: 50px;
+}
+
+.card-function-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+}
+
+.cont-serv-1 h4 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "belgiano";
+}
+
+.card-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.ul-card {
+    font-family: "belgiano";
+    margin-left: 25px;
+}
+
+.p-card {
+    font-family: "belgiano";
+}
+
+.cont-serv-2 {
+    padding: 50px;
+    background-color: var(--azul-oscuro);
+}
+
+.cont-serv-2 h4 {
+    color: white;
+    font-family: "belgiano";
+}
+
+.cont-serv-3 {
+    background-color: var(--amarillo);
+    padding: 50px;
+}
+
+.cont-serv-3 h4 {
+    font-family: "belgiano";
+    color: white;
+}
+

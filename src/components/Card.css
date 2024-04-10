@@ -1,0 +1,33 @@
+@media (max-width:450px) {
+    body .card-icon {
+        display: none;
+    }
+}
+
+.normal-card {
+    max-width: 350px;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.normal-card-title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card-icon {
+    color: var(--azul);
+    font-size: var(--medium);
+    margin: 10px;
+}
+
+.normal-card-title h2 {
+    font-family: "belgiano";
+    font-size: var(--small);
+    color: var(--amarillo);
+}

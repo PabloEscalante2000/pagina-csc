@@ -1,0 +1,39 @@
+.normal-card aside {
+    width: 290px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.cesar {
+    background-image: url(../assets/César\ 2.jpg);
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.mateo {
+    background-image: url(../assets/Mateo\ 1.jpg);
+    background-position: bottom;
+    background-size: 95%;
+}
+
+.melissa {
+    background-image: url(../assets/Melissa\ 2.jpg);
+    background-position: top;
+    background-size: 90%;
+}
+
+.mayte {
+    background-image: url(../assets/Mayte\ 1.jpg);
+    background-position: center;
+    background-size: 90%;
+}
+
+.card-img img {
+    width: 290px;
+    margin-bottom: 20px;
+}
+
+.normal-card-title p {
+    font-family: "belgiano";
+    color: var(--azul);
+}

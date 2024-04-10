@@ -1,0 +1,58 @@
+.content-raz {
+    padding: 50px;
+}
+
+.content-raz h1 {
+    font-family: "against";
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.content-raz h1::before {
+    width: 50px;
+    height: 5px;
+    background-color: var(--azul-oscuro);
+    content: ".";
+    position: absolute;
+    left: -60px;
+    transform: translate(0px,300%);    
+}
+
+.razon-bloq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.razon-bloq div {
+    width: 500px;
+    height: 400px;
+    background-color: gray;
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.razon-bloq aside {
+    font-family: "belgiano";
+    font-size: var(--xmedium);
+    width: 400px;
+    margin: 30px;
+}
+
+.raz-bloq-1 {
+    background-image: url(../assets/pqcsc-img1.jpg);
+}
+
+.raz-bloq-2 {
+    background-image: url(../assets/pqcsc-img2.jpg);
+}
+
+.raz-bloq-3 {
+    background-image: url(../assets/pqcsc-img3.PNG);
+}
+
+.p-right {
+    text-align: right;
+}
