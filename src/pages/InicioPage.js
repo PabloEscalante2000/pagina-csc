@@ -6,16 +6,9 @@ import inicioImg3 from "../assets/inicio-img3.PNG";
 import { useState,useEffect } from "react";
 
 export default function InicioPage() {
-  
-  // let animacion = document.getElementById("animacion1");
-  // let posicionObj = animacion.getBoundingClientRect().top;
 
   const [posAnimacion,setPosAnimacion] = useState(0)
   const [disappear,setDisappear] = useState(true)
-
-  // useEffect(()=>{
-  //   setPosAnimacion(posicionObj);
-  // },[])
   
   useEffect(()=>{
     let animacion = document.getElementById("animacion1");    
@@ -23,7 +16,6 @@ export default function InicioPage() {
     const handleScroll = ()=>{
       let posicionObj = animacion.getBoundingClientRect().top;
       setPosAnimacion(posicionObj)
-      console.log(posAnimacion);
 
       if(posAnimacion < 5*(window.innerHeight)/6){
         setDisappear(false)
@@ -66,11 +58,7 @@ export default function InicioPage() {
           <section></section>
           <aside>
             <p>
-              Diseñar y/o potenciar el clima y cultura que tu empresa necesita,
-              a través de soluciones personalizadas e innovadoras que se
-              enfoquen en la salud mental, motivación y rendimiento de los
-              trabajadores, contribuyendo al logro de una organización
-              eficiente.
+            Ser un referente en consultoría de recursos humanos y mediación de conflictos, destacando por nuestra capacidad para promover ambientes laborales saludables, en donde el bienestar emocional y el crecimiento personal sean pilares fundamentales para el éxito organizacional.
             </p>
           </aside>
         </div>
