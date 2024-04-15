@@ -15,7 +15,7 @@ export default function Footer() {
         <span>Teléfono</span>
         <p>+51 930509438</p>
         <span>Correo</span>
-        <p>infoeadoes@grupoeades.org</p>
+        <p>infoeades@grupoeades.org</p>
       </div>
       <span>Todos los derechos reservados 2024</span>
     </footer>
