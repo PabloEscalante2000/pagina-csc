@@ -2,30 +2,36 @@
     width: 290px;
     height: 350px;
     margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
 }
 
 .cesar {
-    background-image: url(../assets/César\ 2.jpg);
-    background-position: bottom;
-    background-size: 100%;
+    background-image: url(../assets/cesar.png);
 }
 
 .mateo {
-    background-image: url(../assets/Mateo\ 1.jpg);
-    background-position: bottom;
-    background-size: 95%;
+    background-image: url(../assets/mateo.png);
 }
 
 .melissa {
-    background-image: url(../assets/Melissa\ 2.jpg);
-    background-position: top;
-    background-size: 90%;
+    background-image: url(../assets/melissa.png);
 }
 
 .mayte {
-    background-image: url(../assets/Mayte\ 1.jpg);
-    background-position: center;
-    background-size: 90%;
+    background-image: url(../assets/mayte.png);
+}
+
+.jeymer {
+    background-image: url(../assets/jeymer.png);
+}
+
+.miryam {
+    background-image: url(../assets/miryam.png);
+}
+
+.nijme {
+    background-image: url(../assets/nijme-p.png);
 }
 
 .card-img img {
